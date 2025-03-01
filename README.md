@@ -43,3 +43,30 @@ Welcome to the **Dynamic Encryption Machine** project! This is a modern, Python-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/dynamic-encryption-machine.git
+
+---
+
+## **For Non-Technical Users: Run the Program Directly**
+
+If you're not familiar with Python or programming, don't worry! You can still use the **Dynamic Encryption Machine** without installing any software. We’ve provided a ready-to-use **executable file** (`.exe`) that you can download and run directly on your computer.
+
+### **Steps to Run the Program**:
+1. **Download the Executable File**:
+   - Click the link below to download the `.exe` file:
+     - **[Download Executable](yourfile.exe)**
+
+2. **Run the File**:
+   - After downloading, locate the file on your computer (usually in your `Downloads` folder).
+   - Double-click the file to run it.
+
+3. **Use the Program**:
+   - Once the program opens, follow the on-screen instructions to encrypt or decrypt your text.
+
+### **Important Notes**:
+- **Security Warning**: Some antivirus programs might flag `.exe` files as suspicious. This is a false alarm, and the file is completely safe to use. If you encounter any issues, you can temporarily disable your antivirus or mark the file as safe.
+- **No Installation Required**: The `.exe` file is a standalone program, so you don’t need to install Python or any other software.
+
+### **Prefer Running the Python Script?**
+If you're comfortable with Python, you can also run the program directly from the source code. Check out the [Installation Instructions](#installation) for details.
+
+---
