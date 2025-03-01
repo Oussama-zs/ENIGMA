@@ -67,6 +67,4 @@ If you're not familiar with Python or programming, don't worry! You can still us
 - **No Installation Required**: The `.exe` file is a standalone program, so you don’t need to install Python or any other software.
 
 ### **Prefer Running the Python Script?**
-If you're comfortable with Python, you can also run the program directly from the source code. Check out the [Installation Instructions](#installation) for details.
-
----
+If you're comfortable with Python, you can also run the program directly from the source code.
