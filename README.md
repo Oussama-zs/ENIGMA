@@ -42,7 +42,7 @@ Welcome to the **Dynamic Encryption Machine** project! This is a modern, Python-
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dynamic-encryption-machine.git
+   git clone https://github.com/Oussama-zs/ENIGMA.git
 
 ---
 
