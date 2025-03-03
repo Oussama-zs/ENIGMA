@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import webbrowser as wb
 import random
+import os
 import string
 import time
 
@@ -9,7 +10,8 @@ import time
 main_window = tk.Tk()
 main_window.geometry("1400x720")
 main_window.title("ENIGMA")
-main_window.iconbitmap("enigma.ico")
+icon_path = os.path.join(os.path.dirname(__file__), 'enigma.ico')
+main_window.iconbitmap(icon_path)
 main_window.config(background='#ccccff')
 main_window.maxsize(1400,720)
 
@@ -110,7 +112,7 @@ linkdin.place(rely=0.95, relx=0.5,anchor='center')
 
 
 def open_encryption():
-
+    global icon_path
 
 
 
@@ -253,7 +255,7 @@ def open_encryption():
     root = tk.Tk()
     root.title("E N I G M A")
     root.attributes('-fullscreen', True)
-    root.iconbitmap('enigma.ico')
+    root.iconbitmap(icon_path)
     root.config(background='#ccccff')
     root.geometry("1900x1020")
 
@@ -466,7 +468,7 @@ def open_encryption():
 
 def open_decryption():
 
-
+    global icon_path
 
     #__________________________ROTORS_________________________________
     R = {
@@ -603,7 +605,7 @@ def open_decryption():
     root = tk.Tk()
     root.title("E N I G M A")
     root.attributes('-fullscreen', True)
-    root.iconbitmap('enigma.ico')
+    root.iconbitmap(icon_path)
     root.config(background='#ccccff')
 
     label = tk.Label(root, text="E N I G M A", font=('Andalus', 80), foreground='#6013ad',bg='#ccccff')
