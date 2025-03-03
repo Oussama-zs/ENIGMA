@@ -814,7 +814,7 @@ def open_decryption():
 button1 = tk.Button(main_window,text="ENCRYPTION",background='#ccccff',font=('cambria', 25), width=14, height=2, command=open_encryption,
                          bg='#000000',foreground='#ffffff',cursor='hand2',activebackground='#000000',activeforeground='#000000',relief="raised",highlightthickness=3)
 button1.place(relx=0.35, rely=0.6,anchor='center')
-button2 = tk.Button(main_window,text="DYCRYPTION",background='#ccccff',font=('cambria', 25), width=14, height=2, command=open_decryption,
+button2 = tk.Button(main_window,text="DECRYPTION",background='#ccccff',font=('cambria', 25), width=14, height=2, command=open_decryption,
                          bg='#000000',foreground='#ffffff',cursor='hand2',activebackground='#000000',activeforeground='#000000',relief="raised",highlightthickness=3)
 button2.place(relx=0.65, rely=0.6,anchor='center')
 main_window.mainloop()
