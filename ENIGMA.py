@@ -9,7 +9,7 @@ import time
 main_window = tk.Tk()
 main_window.geometry("1400x720")
 main_window.title("ENIGMA")
-main_window.iconbitmap("D:\info draft\ENIGMA\enigma.ico")
+main_window.iconbitmap("enigma.ico")
 main_window.config(background='#ccccff')
 main_window.maxsize(1400,720)
 
@@ -253,7 +253,7 @@ def open_encryption():
     root = tk.Tk()
     root.title("E N I G M A")
     root.attributes('-fullscreen', True)
-    root.iconbitmap('D:\info draft\ENIGMA\enigma.ico')
+    root.iconbitmap('enigma.ico')
     root.config(background='#ccccff')
     root.geometry("1900x1020")
 
@@ -603,7 +603,7 @@ def open_decryption():
     root = tk.Tk()
     root.title("E N I G M A")
     root.attributes('-fullscreen', True)
-    root.iconbitmap('D:\info draft\ENIGMA\enigma.ico')
+    root.iconbitmap('enigma.ico')
     root.config(background='#ccccff')
 
     label = tk.Label(root, text="E N I G M A", font=('Andalus', 80), foreground='#6013ad',bg='#ccccff')
